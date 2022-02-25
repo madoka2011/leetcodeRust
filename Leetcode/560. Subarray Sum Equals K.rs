@@ -21,10 +21,3 @@ impl Solution {
         count
     }
 }
-fn main() {
-    let char_vec = vec!['A', 'B'];
-    let int_vec = vec![1, 1];
-
-    let n = 2;
-    println!("{}", Solution::max_area(int_vec));
-}
