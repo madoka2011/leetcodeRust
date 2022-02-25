@@ -1,5 +1,3 @@
-struct Solution {}
-
 // 42. Trapping Rain Water
 impl Solution {
     pub fn trap(height: Vec<i32>) -> i32 {
@@ -29,12 +27,4 @@ impl Solution {
 
         res
     }
-}
-
-fn main() {
-    let char_vec = vec!['A', 'B'];
-    let int_vec = vec![1, 1];
-
-    let n = 2;
-    println!("{}", Solution::max_area(int_vec));
 }
