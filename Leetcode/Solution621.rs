@@ -1,5 +1,3 @@
-struct Solution {}
-
 // 621. Task Scheduler
 impl Solution {
     pub fn least_interval(tasks: Vec<char>, n: i32) -> i32 {
@@ -24,10 +22,4 @@ impl Solution {
 
         idle_time + tasks.len() as i32
     }
-}
-
-fn main() {
-    let char_vec = vec!['A', 'B'];
-    let n = 2;
-    Solution::least_interval(char_vec, n);
 }
